@@ -1,0 +1,15 @@
+{
+  "name": "citara-urban-sanctuary",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'No build step required for static site'",
+    "deploy:cf": "npx wrangler pages deploy . --project-name citara-v1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -1,11 +1,13 @@
-<div align="center">
+# Citara — Urban Sanctuary
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Static landing page recreation based on the supplied Citara Illustrator reference. The page is built as a responsive six-panel layout with original GPT Image assets in `assets/`.
 
-  <h1>Built with AI Studio</h2>
+## Run locally
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Open `index.html` directly, or serve the folder with any static web server:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+```bash
+python -m http.server 8080
+```
 
-</div>
+Then visit `http://localhost:8080`.
